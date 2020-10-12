@@ -9,27 +9,3 @@ body{
     background-color: #eff3f7;
     height: 100%;
 }
-
-html, body, #potato, .container{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.loader{
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
-.movies{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 50px;
-    padding-top: 70px;
-    width: 80%;
-}
-
