@@ -19,7 +19,7 @@ const element = (
     <Text text="Text"></Text>
     <Text text="text"></Text>
     {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((number) => (
-      <Num number={number} selected={number === 3} />
+      <Num number={number} key={number} selected={number === 3} />
     ))}
   </>
 );
